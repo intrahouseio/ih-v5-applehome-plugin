@@ -1,0 +1,8 @@
+{
+    "id":"applehome",
+    "description":"Apple Home Plugin",
+    "activation": false,
+    "resources": false,
+    "cross": true,
+    "version":"5.1.0"
+}

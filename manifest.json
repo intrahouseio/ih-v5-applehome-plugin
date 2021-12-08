@@ -1,0 +1,15 @@
+{
+  "id": "applehome",
+  "description": "Apple Home Plugin",
+  "module": "index.js",
+  "service": "integration",
+  "servicename": "Apple Home",
+  "i_devices":1,
+  "i_types":1,
+  "single": 1,
+  "nochannels": 1,
+  "chdefault": {
+  },
+  "ext": [
+  ]
+}

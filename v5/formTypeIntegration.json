@@ -1,0 +1,1555 @@
+{
+  "spacing": 10,
+  "grid": [
+    {
+      "id": "main",
+      "xs": 6,
+      "class": "main",
+      "table": "_types"
+    },
+    {
+      "id": "AccessControl",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'AccessControl'"
+    },
+    {
+      "id": "AccessoryMetrics",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'AccessoryMetrics'"
+    },
+    {
+      "id": "AccessoryRuntimeInformation",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'AccessoryRuntimeInformation'"
+    },
+    {
+      "id": "AirQualitySensor",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'AirQualitySensor'"
+    },
+    {
+      "id": "BatteryService",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'BatteryService'"
+    },
+    {
+      "id": "Battery",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'Battery'"
+    },
+    {
+      "id": "CameraControl",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'CameraControl'"
+    },
+    {
+      "id": "CarbonDioxideSensor",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'CarbonDioxideSensor'"
+    },
+    {
+      "id": "CarbonMonoxideSensor",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'CarbonMonoxideSensor'"
+    },
+    {
+      "id": "ContactSensor",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'ContactSensor'"
+    },
+    {
+      "id": "Diagnostics",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'Diagnostics'"
+    },
+    {
+      "id": "Doorbell",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'Doorbell'"
+    },
+    {
+      "id": "Fan",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'Fan'"
+    },
+    {
+      "id": "Fanv2",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'Fanv2'"
+    },
+    {
+      "id": "Faucet",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'Faucet'"
+    },
+    {
+      "id": "FilterMaintenance",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'FilterMaintenance'"
+    },
+    {
+      "id": "HumiditySensor",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'HumiditySensor'"
+    },
+    {
+      "id": "LeakSensor",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'LeakSensor'"
+    },
+    {
+      "id": "Lightbulb",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'Lightbulb'"
+    },
+    {
+      "id": "LightSensor",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'LightSensor'"
+    },
+    {
+      "id": "Microphone",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'Microphone'"
+    },
+    {
+      "id": "MotionSensor",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'MotionSensor'"
+    },
+    {
+      "id": "OccupancySensor",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'OccupancySensor'"
+    },
+    {
+      "id": "Outlet",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'Outlet'"
+    },
+    {
+      "id": "ServiceLabel",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'ServiceLabel'"
+    },
+    {
+      "id": "Siri",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'Siri'"
+    },
+    {
+      "id": "SmokeSensor",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'SmokeSensor'"
+    },
+    {
+      "id": "Speaker",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'Speaker'"
+    },
+    {
+      "id": "StatelessProgrammableSwitch",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'StatelessProgrammableSwitch'"
+    },
+    {
+      "id": "Switch",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'Switch'"
+    },
+    {
+      "id": "TelevisionSpeaker",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'TelevisionSpeaker'"
+    },
+    {
+      "id": "TemperatureSensor",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'TemperatureSensor'"
+    },
+    {
+      "id": "WiFiSatellite",
+      "xs": 6,
+      "class": "main",
+      "table": "_types",
+      "hide": "data.main.haptype.id != 'WiFiSatellite'"
+    }
+  ],
+  "main": [
+    {
+      "prop": "haptype",
+      "title": "Тип (HomeKit)",
+      "type": "droplist",
+      "data": [
+        {
+          "id": "AccessControl",
+          "title": "Access Control"
+        },
+        {
+          "id": "AccessoryMetrics",
+          "title": "Accessory Metrics"
+        },
+        {
+          "id": "AccessoryRuntimeInformation",
+          "title": "Accessory Runtime Information"
+        },
+        {
+          "id": "AirQualitySensor",
+          "title": "Air Quality Sensor"
+        },
+        {
+          "id": "BatteryService",
+          "title": "Battery Service"
+        },
+        {
+          "id": "Battery",
+          "title": "Battery"
+        },
+        {
+          "id": "CameraControl",
+          "title": "Camera Control"
+        },
+        {
+          "id": "CarbonDioxideSensor",
+          "title": "Carbon Dioxide Sensor"
+        },
+        {
+          "id": "CarbonMonoxideSensor",
+          "title": "Carbon Monoxide Sensor"
+        },
+        {
+          "id": "ContactSensor",
+          "title": "Contact Sensor"
+        },
+        {
+          "id": "Diagnostics",
+          "title": "Diagnostics"
+        },
+        {
+          "id": "Doorbell",
+          "title": "Doorbell"
+        },
+        {
+          "id": "Fan",
+          "title": "Fan"
+        },
+        {
+          "id": "Fanv2",
+          "title": "Fanv2"
+        },
+        {
+          "id": "Faucet",
+          "title": "Faucet"
+        },
+        {
+          "id": "FilterMaintenance",
+          "title": "Filter Maintenance"
+        },
+        {
+          "id": "HumiditySensor",
+          "title": "Humidity Sensor"
+        },
+        {
+          "id": "LeakSensor",
+          "title": "Leak Sensor"
+        },
+        {
+          "id": "Lightbulb",
+          "title": "Lightbulb"
+        },
+        {
+          "id": "LightSensor",
+          "title": "Light Sensor"
+        },
+        {
+          "id": "Microphone",
+          "title": "Microphone"
+        },
+        {
+          "id": "MotionSensor",
+          "title": "Motion Sensor"
+        },
+        {
+          "id": "OccupancySensor",
+          "title": "Occupancy Sensor"
+        },
+        {
+          "id": "Outlet",
+          "title": "Outlet"
+        },
+        {
+          "id": "ServiceLabel",
+          "title": "Service Label"
+        },
+        {
+          "id": "Siri",
+          "title": "Siri"
+        },
+        {
+          "id": "SmokeSensor",
+          "title": "Smoke Sensor"
+        },
+        {
+          "id": "Speaker",
+          "title": "Speaker"
+        },
+        {
+          "id": "StatelessProgrammableSwitch",
+          "title": "Stateless Programmable Switch"
+        },
+        {
+          "id": "Switch",
+          "title": "Switch"
+        },
+        {
+          "id": "TelevisionSpeaker",
+          "title": "Television Speaker"
+        },
+        {
+          "id": "TemperatureSensor",
+          "title": "Temperature Sensor"
+        },
+        {
+          "id": "WiFiSatellite",
+          "title": "Wi Fi Satellite"
+        }
+      ]
+    }
+  ],
+  "AccessControl": [
+    {
+      "sid": "AccessControl",
+      "title": "Access Control Level *",
+      "prop": "AccessControlLevel",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "AccessoryMetrics": [
+    {
+      "sid": "AccessoryMetrics",
+      "title": "Active *",
+      "prop": "Active",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "AccessoryRuntimeInformation": [
+    {
+      "sid": "AccessoryRuntimeInformation",
+      "title": "Activity Interval",
+      "prop": "ActivityInterval",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "AccessoryRuntimeInformation",
+      "title": "Heart Beat",
+      "prop": "HeartBeat",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "AccessoryRuntimeInformation",
+      "title": "Sleep Interval",
+      "prop": "SleepInterval",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "AirQualitySensor": [
+    {
+      "sid": "AirQualitySensor",
+      "title": "Air Quality *",
+      "prop": "AirQuality",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "AirQualitySensor",
+      "title": "Nitrogen Dioxide Density",
+      "prop": "NitrogenDioxideDensity",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "AirQualitySensor",
+      "title": "Ozone Density",
+      "prop": "OzoneDensity",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "AirQualitySensor",
+      "title": "PM10 Density",
+      "prop": "PM10Density",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "AirQualitySensor",
+      "title": "PM2.5 Density",
+      "prop": "PM2_5Density",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "AirQualitySensor",
+      "title": "Sulphur Dioxide Density",
+      "prop": "SulphurDioxideDensity",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "AirQualitySensor",
+      "title": "VOC Density",
+      "prop": "VOCDensity",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "AirQualitySensor",
+      "title": "Status Active",
+      "prop": "StatusActive",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "AirQualitySensor",
+      "title": "Status Fault",
+      "prop": "StatusFault",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "AirQualitySensor",
+      "title": "Status Low Battery",
+      "prop": "StatusLowBattery",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "AirQualitySensor",
+      "title": "Status Tampered",
+      "prop": "StatusTampered",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "BatteryService": [
+    {
+      "sid": "BatteryService",
+      "title": "Status Low Battery *",
+      "prop": "StatusLowBattery",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "BatteryService",
+      "title": "Battery Level",
+      "prop": "BatteryLevel",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "BatteryService",
+      "title": "Charging State",
+      "prop": "ChargingState",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "Battery": [
+    {
+      "sid": "Battery",
+      "title": "Status Low Battery *",
+      "prop": "StatusLowBattery",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Battery",
+      "title": "Battery Level",
+      "prop": "BatteryLevel",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Battery",
+      "title": "Charging State",
+      "prop": "ChargingState",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "CameraControl": [
+    {
+      "sid": "CameraControl",
+      "title": "State *",
+      "prop": "On",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CameraControl",
+      "title": "State On *",
+      "prop": "On_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "CameraControl",
+      "title": "State Off *",
+      "prop": "On_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "CameraControl",
+      "title": "Current Horizontal Tilt Angle",
+      "prop": "CurrentHorizontalTiltAngle",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CameraControl",
+      "title": "Current Vertical Tilt Angle",
+      "prop": "CurrentVerticalTiltAngle",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CameraControl",
+      "title": "Target Horizontal Tilt Angle",
+      "prop": "TargetHorizontalTiltAngle",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CameraControl",
+      "title": "Target Vertical Tilt Angle",
+      "prop": "TargetVerticalTiltAngle",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CameraControl",
+      "title": "Night Vision",
+      "prop": "NightVision",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CameraControl",
+      "title": "Night Vision On",
+      "prop": "NightVision_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "CameraControl",
+      "title": "Night Vision Off",
+      "prop": "NightVision_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "CameraControl",
+      "title": "Optical Zoom",
+      "prop": "OpticalZoom",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CameraControl",
+      "title": "Digital Zoom",
+      "prop": "DigitalZoom",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CameraControl",
+      "title": "Image Rotation",
+      "prop": "ImageRotation",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CameraControl",
+      "title": "Image Mirroring",
+      "prop": "ImageMirroring",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CameraControl",
+      "title": "Image Mirroring On",
+      "prop": "ImageMirroring_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "CameraControl",
+      "title": "Image Mirroring Off",
+      "prop": "ImageMirroring_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    }
+  ],
+  "CarbonDioxideSensor": [
+    {
+      "sid": "CarbonDioxideSensor",
+      "title": "Carbon Dioxide Detected *",
+      "prop": "CarbonDioxideDetected",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CarbonDioxideSensor",
+      "title": "Carbon Dioxide Level",
+      "prop": "CarbonDioxideLevel",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CarbonDioxideSensor",
+      "title": "Carbon Dioxide Peak Level",
+      "prop": "CarbonDioxidePeakLevel",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CarbonDioxideSensor",
+      "title": "Status Active",
+      "prop": "StatusActive",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CarbonDioxideSensor",
+      "title": "Status Fault",
+      "prop": "StatusFault",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CarbonDioxideSensor",
+      "title": "Status Low Battery",
+      "prop": "StatusLowBattery",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CarbonDioxideSensor",
+      "title": "Status Tampered",
+      "prop": "StatusTampered",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "CarbonMonoxideSensor": [
+    {
+      "sid": "CarbonMonoxideSensor",
+      "title": "Carbon Monoxide Detected *",
+      "prop": "CarbonMonoxideDetected",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CarbonMonoxideSensor",
+      "title": "Carbon Monoxide Level",
+      "prop": "CarbonMonoxideLevel",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CarbonMonoxideSensor",
+      "title": "Carbon Monoxide Peak Level",
+      "prop": "CarbonMonoxidePeakLevel",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CarbonMonoxideSensor",
+      "title": "Status Active",
+      "prop": "StatusActive",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CarbonMonoxideSensor",
+      "title": "Status Fault",
+      "prop": "StatusFault",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CarbonMonoxideSensor",
+      "title": "Status Low Battery",
+      "prop": "StatusLowBattery",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CarbonMonoxideSensor",
+      "title": "Status Tampered",
+      "prop": "StatusTampered",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "ContactSensor": [
+    {
+      "sid": "ContactSensor",
+      "title": "Contact Sensor State *",
+      "prop": "ContactSensorState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "ContactSensor",
+      "title": "Status Active",
+      "prop": "StatusActive",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "ContactSensor",
+      "title": "Status Fault",
+      "prop": "StatusFault",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "ContactSensor",
+      "title": "Status Low Battery",
+      "prop": "StatusLowBattery",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "ContactSensor",
+      "title": "Status Tampered",
+      "prop": "StatusTampered",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "Diagnostics": [
+    {
+      "sid": "Diagnostics",
+      "title": "Selected Diagnostics Modes",
+      "prop": "SelectedDiagnosticsModes",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Diagnostics",
+      "title": "Supported Diagnostics Modes",
+      "prop": "SupportedDiagnosticsModes",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "Doorbell": [
+    {
+      "sid": "Doorbell",
+      "title": "Programmable Switch Event *",
+      "prop": "ProgrammableSwitchEvent",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Doorbell",
+      "title": "Brightness",
+      "prop": "Brightness",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Doorbell",
+      "title": "Mute",
+      "prop": "Mute",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Doorbell",
+      "title": "Mute On",
+      "prop": "Mute_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "Doorbell",
+      "title": "Mute Off",
+      "prop": "Mute_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "Doorbell",
+      "title": "Volume",
+      "prop": "Volume",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "Fan": [
+    {
+      "sid": "Fan",
+      "title": "State *",
+      "prop": "On",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Fan",
+      "title": "State On *",
+      "prop": "On_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "Fan",
+      "title": "State Off *",
+      "prop": "On_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "Fan",
+      "title": "Rotation Direction",
+      "prop": "RotationDirection",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Fan",
+      "title": "Rotation Speed",
+      "prop": "RotationSpeed",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "Fanv2": [
+    {
+      "sid": "Fanv2",
+      "title": "Active *",
+      "prop": "Active",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Fanv2",
+      "title": "Current Fan State",
+      "prop": "CurrentFanState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Fanv2",
+      "title": "Target Fan State",
+      "prop": "TargetFanState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Fanv2",
+      "title": "Lock Physical Controls",
+      "prop": "LockPhysicalControls",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Fanv2",
+      "title": "Rotation Direction",
+      "prop": "RotationDirection",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Fanv2",
+      "title": "Rotation Speed",
+      "prop": "RotationSpeed",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Fanv2",
+      "title": "Swing Mode",
+      "prop": "SwingMode",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "Faucet": [
+    {
+      "sid": "Faucet",
+      "title": "Active *",
+      "prop": "Active",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Faucet",
+      "title": "Status Fault",
+      "prop": "StatusFault",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "FilterMaintenance": [
+    {
+      "sid": "FilterMaintenance",
+      "title": "Filter Change Indication *",
+      "prop": "FilterChangeIndication",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "FilterMaintenance",
+      "title": "Filter Life Level",
+      "prop": "FilterLifeLevel",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "FilterMaintenance",
+      "title": "Reset Filter Indication",
+      "prop": "ResetFilterIndication",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "HumiditySensor": [
+    {
+      "sid": "HumiditySensor",
+      "title": "Current Relative Humidity *",
+      "prop": "CurrentRelativeHumidity",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HumiditySensor",
+      "title": "Status Active",
+      "prop": "StatusActive",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HumiditySensor",
+      "title": "Status Fault",
+      "prop": "StatusFault",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HumiditySensor",
+      "title": "Status Low Battery",
+      "prop": "StatusLowBattery",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HumiditySensor",
+      "title": "Status Tampered",
+      "prop": "StatusTampered",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "LeakSensor": [
+    {
+      "sid": "LeakSensor",
+      "title": "Leak Detected *",
+      "prop": "LeakDetected",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "LeakSensor",
+      "title": "Status Active",
+      "prop": "StatusActive",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "LeakSensor",
+      "title": "Status Fault",
+      "prop": "StatusFault",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "LeakSensor",
+      "title": "Status Low Battery",
+      "prop": "StatusLowBattery",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "LeakSensor",
+      "title": "Status Tampered",
+      "prop": "StatusTampered",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "Lightbulb": [
+    {
+      "sid": "Lightbulb",
+      "title": "State *",
+      "prop": "On",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Lightbulb",
+      "title": "State On *",
+      "prop": "On_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "Lightbulb",
+      "title": "State Off *",
+      "prop": "On_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "Lightbulb",
+      "title": "Brightness",
+      "prop": "Brightness",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Lightbulb",
+      "title": "Characteristic Value Active Transition Count",
+      "prop": "CharacteristicValueActiveTransitionCount",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Lightbulb",
+      "title": "Color Temperature",
+      "prop": "ColorTemperature",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Lightbulb",
+      "title": "Hue",
+      "prop": "Hue",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Lightbulb",
+      "title": "Saturation",
+      "prop": "Saturation",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "LightSensor": [
+    {
+      "sid": "LightSensor",
+      "title": "Current Ambient Light Level *",
+      "prop": "CurrentAmbientLightLevel",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "LightSensor",
+      "title": "Status Active",
+      "prop": "StatusActive",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "LightSensor",
+      "title": "Status Fault",
+      "prop": "StatusFault",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "LightSensor",
+      "title": "Status Low Battery",
+      "prop": "StatusLowBattery",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "LightSensor",
+      "title": "Status Tampered",
+      "prop": "StatusTampered",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "Microphone": [
+    {
+      "sid": "Microphone",
+      "title": "Mute *",
+      "prop": "Mute",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Microphone",
+      "title": "Mute On *",
+      "prop": "Mute_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "Microphone",
+      "title": "Mute Off *",
+      "prop": "Mute_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "Microphone",
+      "title": "Volume",
+      "prop": "Volume",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "MotionSensor": [
+    {
+      "sid": "MotionSensor",
+      "title": "Motion Detected *",
+      "prop": "MotionDetected",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "MotionSensor",
+      "title": "Status Active",
+      "prop": "StatusActive",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "MotionSensor",
+      "title": "Status Fault",
+      "prop": "StatusFault",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "MotionSensor",
+      "title": "Status Low Battery",
+      "prop": "StatusLowBattery",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "MotionSensor",
+      "title": "Status Tampered",
+      "prop": "StatusTampered",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "OccupancySensor": [
+    {
+      "sid": "OccupancySensor",
+      "title": "Occupancy Detected *",
+      "prop": "OccupancyDetected",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "OccupancySensor",
+      "title": "Status Active",
+      "prop": "StatusActive",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "OccupancySensor",
+      "title": "Status Fault",
+      "prop": "StatusFault",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "OccupancySensor",
+      "title": "Status Low Battery",
+      "prop": "StatusLowBattery",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "OccupancySensor",
+      "title": "Status Tampered",
+      "prop": "StatusTampered",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "Outlet": [
+    {
+      "sid": "Outlet",
+      "title": "State *",
+      "prop": "On",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Outlet",
+      "title": "State On *",
+      "prop": "On_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "Outlet",
+      "title": "State Off *",
+      "prop": "On_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "Outlet",
+      "title": "Outlet In Use",
+      "prop": "OutletInUse",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "ServiceLabel": [
+    {
+      "sid": "ServiceLabel",
+      "title": "Service Label Namespace *",
+      "prop": "ServiceLabelNamespace",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "Siri": [
+    {
+      "sid": "Siri",
+      "title": "Siri Input Type *",
+      "prop": "SiriInputType",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Siri",
+      "title": "Multifunction Button",
+      "prop": "MultifunctionButton",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Siri",
+      "title": "Siri Enable",
+      "prop": "SiriEnable",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Siri",
+      "title": "Siri Light On Use",
+      "prop": "SiriLightOnUse",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Siri",
+      "title": "Siri Listening",
+      "prop": "SiriListening",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Siri",
+      "title": "Siri Touch To Use",
+      "prop": "SiriTouchToUse",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "SmokeSensor": [
+    {
+      "sid": "SmokeSensor",
+      "title": "Smoke Detected *",
+      "prop": "SmokeDetected",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "SmokeSensor",
+      "title": "Status Active",
+      "prop": "StatusActive",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "SmokeSensor",
+      "title": "Status Fault",
+      "prop": "StatusFault",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "SmokeSensor",
+      "title": "Status Low Battery",
+      "prop": "StatusLowBattery",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "SmokeSensor",
+      "title": "Status Tampered",
+      "prop": "StatusTampered",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "Speaker": [
+    {
+      "sid": "Speaker",
+      "title": "Mute *",
+      "prop": "Mute",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Speaker",
+      "title": "Mute On *",
+      "prop": "Mute_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "Speaker",
+      "title": "Mute Off *",
+      "prop": "Mute_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "Speaker",
+      "title": "Active",
+      "prop": "Active",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Speaker",
+      "title": "Volume",
+      "prop": "Volume",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "StatelessProgrammableSwitch": [
+    {
+      "sid": "StatelessProgrammableSwitch",
+      "title": "Programmable Switch Event *",
+      "prop": "ProgrammableSwitchEvent",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "StatelessProgrammableSwitch",
+      "title": "Service Label Index",
+      "prop": "ServiceLabelIndex",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "Switch": [
+    {
+      "sid": "Switch",
+      "title": "State *",
+      "prop": "On",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Switch",
+      "title": "State On *",
+      "prop": "On_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "Switch",
+      "title": "State Off *",
+      "prop": "On_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    }
+  ],
+  "TelevisionSpeaker": [
+    {
+      "sid": "TelevisionSpeaker",
+      "title": "Mute *",
+      "prop": "Mute",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "TelevisionSpeaker",
+      "title": "Mute On *",
+      "prop": "Mute_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "TelevisionSpeaker",
+      "title": "Mute Off *",
+      "prop": "Mute_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "TelevisionSpeaker",
+      "title": "Active",
+      "prop": "Active",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "TelevisionSpeaker",
+      "title": "Volume",
+      "prop": "Volume",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "TelevisionSpeaker",
+      "title": "Volume Control Type",
+      "prop": "VolumeControlType",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "TelevisionSpeaker",
+      "title": "Volume Selector",
+      "prop": "VolumeSelector",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "TemperatureSensor": [
+    {
+      "sid": "TemperatureSensor",
+      "title": "Current Temperature *",
+      "prop": "CurrentTemperature",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "TemperatureSensor",
+      "title": "Status Active",
+      "prop": "StatusActive",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "TemperatureSensor",
+      "title": "Status Fault",
+      "prop": "StatusFault",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "TemperatureSensor",
+      "title": "Status Low Battery",
+      "prop": "StatusLowBattery",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "TemperatureSensor",
+      "title": "Status Tampered",
+      "prop": "StatusTampered",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "WiFiSatellite": [
+    {
+      "sid": "WiFiSatellite",
+      "title": "Wi-Fi Satellite Status *",
+      "prop": "WiFiSatelliteStatus",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "grid": [
+    { "id": "p1", "xs": 4, "class": "main", "table": "units" },
+    { "id": "p2", "xs": 4, "class": "main", "table": "units" },
+    { "id": "p3", "xs": 4, "class": "main", "table": "units" },
+    { "id": "p4", "xs": 12, "class": "main", "table": "unitsTreeTable", "height": "fill" }
+  ],
+
+  "spacing": 10,
+  "breadcrumbs": { "tree": "plugins" },
+  "p1": [
+    {
+      "prop": "mac",
+      "title": "$Mac",
+      "type": "input",
+      "default": "17:51:07:F4:BC:8C"
+    },
+    {
+      "prop": "pincode",
+      "title": "$Pincode",
+      "type": "input",
+      "default": "678-90-876"
+    },
+    {
+      "prop": "port",
+      "title": "$Port",
+      "type": "input",
+      "default": "47129"
+    },
+    {
+      "prop": "setupid",
+      "title": "$Setupid",
+      "type": "input",
+      "default": "77E8"
+    },
+    {
+      "prop": "category",
+      "title": "$Category",
+      "type": "droplist",
+      "hide": "true",
+      "data" : [
+        {
+          "id": 1,
+          "title": "OTHER"
+        },
+        {
+          "id": 2,
+          "title": "BRIDGE"
+        },
+        {
+          "id": 3,
+          "title": "FAN"
+        },
+        {
+          "id": 4,
+          "title": "GARAGE_DOOR_OPENER"
+        },
+        {
+          "id": 5,
+          "title": "LIGHTBULB"
+        },
+        {
+          "id": 6,
+          "title": "DOOR_LOCK"
+        },
+        {
+          "id": 7,
+          "title": "OUTLET"
+        },
+        {
+          "id": 8,
+          "title": "SWITCH"
+        },
+        {
+          "id": 9,
+          "title": "THERMOSTAT"
+        },
+        {
+          "id": 10,
+          "title": "SENSOR"
+        },
+        {
+          "id": 11,
+          "title": "ALARM_SYSTEM"
+        },
+        {
+          "id": 11,
+          "title": "SECURITY_SYSTEM"
+        },
+        {
+          "id": 12,
+          "title": "DOOR"
+        },
+        {
+          "id": 13,
+          "title": "WINDOW"
+        },
+        {
+          "id": 14,
+          "title": "WINDOW_COVERING"
+        },
+        {
+          "id": 15,
+          "title": "PROGRAMMABLE_SWITCH"
+        },
+        {
+          "id": 16,
+          "title": "RANGE_EXTENDER"
+        },
+        {
+          "id": 17,
+          "title": "CAMERA"
+        },
+        {
+          "id": 17,
+          "title": "IP_CAMERA"
+        },
+        {
+          "id": 18,
+          "title": "VIDEO_DOORBELL"
+        },
+        {
+          "id": 19,
+          "title": "AIR_PURIFIER"
+        },
+        {
+          "id": 20,
+          "title": "AIR_HEATER"
+        },
+        {
+          "id": 21,
+          "title": "AIR_CONDITIONER"
+        },
+        {
+          "id": 22,
+          "title": "AIR_HUMIDIFIER"
+        },
+        {
+          "id": 23,
+          "title": "AIR_DEHUMIDIFIER"
+        },
+        {
+          "id": 24,
+          "title": "APPLE_TV"
+        },
+        {
+          "id": 25,
+          "title": "HOMEPOD"
+        },
+        {
+          "id": 26,
+          "title": "SPEAKER"
+        },
+        {
+          "id": 27,
+          "title": "AIRPORT"
+        },
+        {
+          "id": 28,
+          "title": "SPRINKLER"
+        },
+        {
+          "id": 29,
+          "title": "FAUCET"
+        },
+        {
+          "id": 30,
+          "title": "SHOWER_HEAD"
+        },
+        {
+          "id": 31,
+          "title": "TELEVISION"
+        },
+        {
+          "id": 32,
+          "title": "TARGET_CONTROLLER"
+        },
+        {
+          "id": 33,
+          "title": "ROUTER"
+        },
+        {
+          "id": 34,
+          "title": "AUDIO_RECEIVER"
+        },
+        {
+          "id": 35,
+          "title": "TV_SET_TOP_BOX"
+        },
+        {
+          "id": 36,
+          "title": "TV_STREAMING_STICK"
+        }
+      ]
+    }
+  ],
+  "p2": [
+    {
+      "prop": "qrcode",
+      "title": "QR-code",
+      "type": "qrcodehap"
+    }
+  ],
+  "p3": [
+    {
+      "prop": "restarttime",
+      "title": "$Unit_Restarttime",
+      "type": "input",
+      "default": 1
+    },
+    { "prop": "loglevel", "title": "$LogLevel", "type": "droplist", "data": "loglevelList" },
+    { "prop": "txt", "title": "$Comment", "type": "input" }
+  ],
+  "p4": [
+    {
+      "title": "",
+      "type": "table",
+      "prop": "unitsTreeTable",
+
+      "columns": [
+        { "prop": "name", "title": "ID", "type": "text", "width": 150 },
+        { "prop": "state", "title": "Состояние", "type": "text", "width": 150 },
+        { "prop": "laststart", "title": "Время запуска", "type": "text", "width": 150 },
+        { "prop": "laststop", "title": "Время останова", "type": "text", "width": 150 },
+        { "prop": "uptime", "title": "Uptime", "type": "text", "width": 150 },
+        { "prop": "error", "title": "Ошибка", "type": "text", "width": 250 }
+      ]
+    }
+  ]
+}
