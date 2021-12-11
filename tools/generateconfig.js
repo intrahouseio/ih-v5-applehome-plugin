@@ -8,14 +8,14 @@ Object
   .forEach(key => {
     try {
       const service = new hap.Service[key]('0');
-
-      if (service.characteristics.length <= 2) {
+      console.log(key, service.characteristics.length)
+      if (true) {
         config[key] = { 
           title: camelToCase(key),
           propsMain: {},
           propsExp: {},
         }
-
+   
         service.characteristics.forEach(i => {
           config[key].propsMain[i.constructor.name] = { 
             title: i.displayName,
@@ -33,7 +33,7 @@ Object
         })
       }
     } catch {
-
+      
     }
   });
 

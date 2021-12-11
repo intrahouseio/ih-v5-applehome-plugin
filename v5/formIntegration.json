@@ -8,11 +8,25 @@
       "table": "_devices"
     },
     {
+      "id": "AccessCode",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'AccessCode' ?  true : data.main.inherit"
+    },
+    {
       "id": "AccessControl",
       "xs": 6,
       "class": "main",
       "table": "_devices",
       "hide": "data.main.haptype.id != 'AccessControl' ?  true : data.main.inherit"
+    },
+    {
+      "id": "AccessoryInformation",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'AccessoryInformation' ?  true : data.main.inherit"
     },
     {
       "id": "AccessoryMetrics",
@@ -29,11 +43,32 @@
       "hide": "data.main.haptype.id != 'AccessoryRuntimeInformation' ?  true : data.main.inherit"
     },
     {
+      "id": "AirPurifier",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'AirPurifier' ?  true : data.main.inherit"
+    },
+    {
       "id": "AirQualitySensor",
       "xs": 6,
       "class": "main",
       "table": "_devices",
       "hide": "data.main.haptype.id != 'AirQualitySensor' ?  true : data.main.inherit"
+    },
+    {
+      "id": "AssetUpdate",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'AssetUpdate' ?  true : data.main.inherit"
+    },
+    {
+      "id": "Assistant",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'Assistant' ?  true : data.main.inherit"
     },
     {
       "id": "BatteryService",
@@ -50,11 +85,53 @@
       "hide": "data.main.haptype.id != 'Battery' ?  true : data.main.inherit"
     },
     {
+      "id": "BridgeConfiguration",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'BridgeConfiguration' ?  true : data.main.inherit"
+    },
+    {
+      "id": "BridgingState",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'BridgingState' ?  true : data.main.inherit"
+    },
+    {
       "id": "CameraControl",
       "xs": 6,
       "class": "main",
       "table": "_devices",
       "hide": "data.main.haptype.id != 'CameraControl' ?  true : data.main.inherit"
+    },
+    {
+      "id": "CameraOperatingMode",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'CameraOperatingMode' ?  true : data.main.inherit"
+    },
+    {
+      "id": "CameraEventRecordingManagement",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'CameraEventRecordingManagement' ?  true : data.main.inherit"
+    },
+    {
+      "id": "CameraRecordingManagement",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'CameraRecordingManagement' ?  true : data.main.inherit"
+    },
+    {
+      "id": "CameraRTPStreamManagement",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'CameraRTPStreamManagement' ?  true : data.main.inherit"
     },
     {
       "id": "CarbonDioxideSensor",
@@ -71,6 +148,20 @@
       "hide": "data.main.haptype.id != 'CarbonMonoxideSensor' ?  true : data.main.inherit"
     },
     {
+      "id": "Relay",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'Relay' ?  true : data.main.inherit"
+    },
+    {
+      "id": "CloudRelay",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'CloudRelay' ?  true : data.main.inherit"
+    },
+    {
       "id": "ContactSensor",
       "xs": 6,
       "class": "main",
@@ -83,6 +174,13 @@
       "class": "main",
       "table": "_devices",
       "hide": "data.main.haptype.id != 'Diagnostics' ?  true : data.main.inherit"
+    },
+    {
+      "id": "Door",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'Door' ?  true : data.main.inherit"
     },
     {
       "id": "Doorbell",
@@ -120,11 +218,46 @@
       "hide": "data.main.haptype.id != 'FilterMaintenance' ?  true : data.main.inherit"
     },
     {
+      "id": "GarageDoorOpener",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'GarageDoorOpener' ?  true : data.main.inherit"
+    },
+    {
+      "id": "HeaterCooler",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'HeaterCooler' ?  true : data.main.inherit"
+    },
+    {
+      "id": "HumidifierDehumidifier",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'HumidifierDehumidifier' ?  true : data.main.inherit"
+    },
+    {
       "id": "HumiditySensor",
       "xs": 6,
       "class": "main",
       "table": "_devices",
       "hide": "data.main.haptype.id != 'HumiditySensor' ?  true : data.main.inherit"
+    },
+    {
+      "id": "InputSource",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'InputSource' ?  true : data.main.inherit"
+    },
+    {
+      "id": "IrrigationSystem",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'IrrigationSystem' ?  true : data.main.inherit"
     },
     {
       "id": "LeakSensor",
@@ -148,6 +281,20 @@
       "hide": "data.main.haptype.id != 'LightSensor' ?  true : data.main.inherit"
     },
     {
+      "id": "LockManagement",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'LockManagement' ?  true : data.main.inherit"
+    },
+    {
+      "id": "LockMechanism",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'LockMechanism' ?  true : data.main.inherit"
+    },
+    {
       "id": "Microphone",
       "xs": 6,
       "class": "main",
@@ -160,6 +307,13 @@
       "class": "main",
       "table": "_devices",
       "hide": "data.main.haptype.id != 'MotionSensor' ?  true : data.main.inherit"
+    },
+    {
+      "id": "NFCAccess",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'NFCAccess' ?  true : data.main.inherit"
     },
     {
       "id": "OccupancySensor",
@@ -176,6 +330,20 @@
       "hide": "data.main.haptype.id != 'Outlet' ?  true : data.main.inherit"
     },
     {
+      "id": "Pairing",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'Pairing' ?  true : data.main.inherit"
+    },
+    {
+      "id": "SecuritySystem",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'SecuritySystem' ?  true : data.main.inherit"
+    },
+    {
       "id": "ServiceLabel",
       "xs": 6,
       "class": "main",
@@ -188,6 +356,34 @@
       "class": "main",
       "table": "_devices",
       "hide": "data.main.haptype.id != 'Siri' ?  true : data.main.inherit"
+    },
+    {
+      "id": "SiriEndpoint",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'SiriEndpoint' ?  true : data.main.inherit"
+    },
+    {
+      "id": "Slat",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'Slat' ?  true : data.main.inherit"
+    },
+    {
+      "id": "Slats",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'Slats' ?  true : data.main.inherit"
+    },
+    {
+      "id": "SmartSpeaker",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'SmartSpeaker' ?  true : data.main.inherit"
     },
     {
       "id": "SmokeSensor",
@@ -204,6 +400,13 @@
       "hide": "data.main.haptype.id != 'Speaker' ?  true : data.main.inherit"
     },
     {
+      "id": "StatefulProgrammableSwitch",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'StatefulProgrammableSwitch' ?  true : data.main.inherit"
+    },
+    {
       "id": "StatelessProgrammableSwitch",
       "xs": 6,
       "class": "main",
@@ -216,6 +419,20 @@
       "class": "main",
       "table": "_devices",
       "hide": "data.main.haptype.id != 'Switch' ?  true : data.main.inherit"
+    },
+    {
+      "id": "TargetControl",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'TargetControl' ?  true : data.main.inherit"
+    },
+    {
+      "id": "Television",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'Television' ?  true : data.main.inherit"
     },
     {
       "id": "TelevisionSpeaker",
@@ -232,11 +449,81 @@
       "hide": "data.main.haptype.id != 'TemperatureSensor' ?  true : data.main.inherit"
     },
     {
+      "id": "Thermostat",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'Thermostat' ?  true : data.main.inherit"
+    },
+    {
+      "id": "ThreadTransport",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'ThreadTransport' ?  true : data.main.inherit"
+    },
+    {
+      "id": "TimeInformation",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'TimeInformation' ?  true : data.main.inherit"
+    },
+    {
+      "id": "TunneledBTLEAccessoryService",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'TunneledBTLEAccessoryService' ?  true : data.main.inherit"
+    },
+    {
+      "id": "Tunnel",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'Tunnel' ?  true : data.main.inherit"
+    },
+    {
+      "id": "Valve",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'Valve' ?  true : data.main.inherit"
+    },
+    {
+      "id": "WiFiRouter",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'WiFiRouter' ?  true : data.main.inherit"
+    },
+    {
       "id": "WiFiSatellite",
       "xs": 6,
       "class": "main",
       "table": "_devices",
       "hide": "data.main.haptype.id != 'WiFiSatellite' ?  true : data.main.inherit"
+    },
+    {
+      "id": "WiFiTransport",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'WiFiTransport' ?  true : data.main.inherit"
+    },
+    {
+      "id": "Window",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'Window' ?  true : data.main.inherit"
+    },
+    {
+      "id": "WindowCovering",
+      "xs": 6,
+      "class": "main",
+      "table": "_devices",
+      "hide": "data.main.haptype.id != 'WindowCovering' ?  true : data.main.inherit"
     }
   ],
   "main": [
@@ -261,8 +548,16 @@
       "type": "droplist",
       "data": [
         {
+          "id": "AccessCode",
+          "title": "Access Code"
+        },
+        {
           "id": "AccessControl",
           "title": "Access Control"
+        },
+        {
+          "id": "AccessoryInformation",
+          "title": "Accessory Information"
         },
         {
           "id": "AccessoryMetrics",
@@ -273,8 +568,20 @@
           "title": "Accessory Runtime Information"
         },
         {
+          "id": "AirPurifier",
+          "title": "Air Purifier"
+        },
+        {
           "id": "AirQualitySensor",
           "title": "Air Quality Sensor"
+        },
+        {
+          "id": "AssetUpdate",
+          "title": "Asset Update"
+        },
+        {
+          "id": "Assistant",
+          "title": "Assistant"
         },
         {
           "id": "BatteryService",
@@ -285,8 +592,32 @@
           "title": "Battery"
         },
         {
+          "id": "BridgeConfiguration",
+          "title": "Bridge Configuration"
+        },
+        {
+          "id": "BridgingState",
+          "title": "Bridging State"
+        },
+        {
           "id": "CameraControl",
           "title": "Camera Control"
+        },
+        {
+          "id": "CameraOperatingMode",
+          "title": "Camera Operating Mode"
+        },
+        {
+          "id": "CameraEventRecordingManagement",
+          "title": "Camera Event Recording Management"
+        },
+        {
+          "id": "CameraRecordingManagement",
+          "title": "Camera Recording Management"
+        },
+        {
+          "id": "CameraRTPStreamManagement",
+          "title": "CameraRTP Stream Management"
         },
         {
           "id": "CarbonDioxideSensor",
@@ -297,12 +628,24 @@
           "title": "Carbon Monoxide Sensor"
         },
         {
+          "id": "Relay",
+          "title": "Relay"
+        },
+        {
+          "id": "CloudRelay",
+          "title": "Cloud Relay"
+        },
+        {
           "id": "ContactSensor",
           "title": "Contact Sensor"
         },
         {
           "id": "Diagnostics",
           "title": "Diagnostics"
+        },
+        {
+          "id": "Door",
+          "title": "Door"
         },
         {
           "id": "Doorbell",
@@ -325,8 +668,28 @@
           "title": "Filter Maintenance"
         },
         {
+          "id": "GarageDoorOpener",
+          "title": "Garage Door Opener"
+        },
+        {
+          "id": "HeaterCooler",
+          "title": "Heater Cooler"
+        },
+        {
+          "id": "HumidifierDehumidifier",
+          "title": "Humidifier Dehumidifier"
+        },
+        {
           "id": "HumiditySensor",
           "title": "Humidity Sensor"
+        },
+        {
+          "id": "InputSource",
+          "title": "Input Source"
+        },
+        {
+          "id": "IrrigationSystem",
+          "title": "Irrigation System"
         },
         {
           "id": "LeakSensor",
@@ -341,12 +704,24 @@
           "title": "Light Sensor"
         },
         {
+          "id": "LockManagement",
+          "title": "Lock Management"
+        },
+        {
+          "id": "LockMechanism",
+          "title": "Lock Mechanism"
+        },
+        {
           "id": "Microphone",
           "title": "Microphone"
         },
         {
           "id": "MotionSensor",
           "title": "Motion Sensor"
+        },
+        {
+          "id": "NFCAccess",
+          "title": "NFC Access"
         },
         {
           "id": "OccupancySensor",
@@ -357,12 +732,36 @@
           "title": "Outlet"
         },
         {
+          "id": "Pairing",
+          "title": "Pairing"
+        },
+        {
+          "id": "SecuritySystem",
+          "title": "Security System"
+        },
+        {
           "id": "ServiceLabel",
           "title": "Service Label"
         },
         {
           "id": "Siri",
           "title": "Siri"
+        },
+        {
+          "id": "SiriEndpoint",
+          "title": "Siri Endpoint"
+        },
+        {
+          "id": "Slat",
+          "title": "Slat"
+        },
+        {
+          "id": "Slats",
+          "title": "Slats"
+        },
+        {
+          "id": "SmartSpeaker",
+          "title": "Smart Speaker"
         },
         {
           "id": "SmokeSensor",
@@ -373,12 +772,24 @@
           "title": "Speaker"
         },
         {
+          "id": "StatefulProgrammableSwitch",
+          "title": "Stateful Programmable Switch"
+        },
+        {
           "id": "StatelessProgrammableSwitch",
           "title": "Stateless Programmable Switch"
         },
         {
           "id": "Switch",
           "title": "Switch"
+        },
+        {
+          "id": "TargetControl",
+          "title": "Target Control"
+        },
+        {
+          "id": "Television",
+          "title": "Television"
         },
         {
           "id": "TelevisionSpeaker",
@@ -389,11 +800,60 @@
           "title": "Temperature Sensor"
         },
         {
+          "id": "Thermostat",
+          "title": "Thermostat"
+        },
+        {
+          "id": "ThreadTransport",
+          "title": "Thread Transport"
+        },
+        {
+          "id": "TimeInformation",
+          "title": "Time Information"
+        },
+        {
+          "id": "TunneledBTLEAccessoryService",
+          "title": "TunneledBTLE Accessory Service"
+        },
+        {
+          "id": "Tunnel",
+          "title": "Tunnel"
+        },
+        {
+          "id": "Valve",
+          "title": "Valve"
+        },
+        {
+          "id": "WiFiRouter",
+          "title": "Wi Fi Router"
+        },
+        {
           "id": "WiFiSatellite",
           "title": "Wi Fi Satellite"
+        },
+        {
+          "id": "WiFiTransport",
+          "title": "Wi Fi Transport"
+        },
+        {
+          "id": "Window",
+          "title": "Window"
+        },
+        {
+          "id": "WindowCovering",
+          "title": "Window Covering"
         }
       ],
       "hide": "data.main.inherit"
+    }
+  ],
+  "AccessCode": [
+    {
+      "sid": "AccessCode",
+      "title": "Configuration State *",
+      "prop": "ConfigurationState",
+      "type": "droplist",
+      "data": "__devprop"
     }
   ],
   "AccessControl": [
@@ -401,6 +861,36 @@
       "sid": "AccessControl",
       "title": "Access Control Level *",
       "prop": "AccessControlLevel",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "AccessoryInformation": [
+    {
+      "sid": "AccessoryInformation",
+      "title": "Identify *",
+      "prop": "Identify",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "AccessoryInformation",
+      "title": "Identify On *",
+      "prop": "Identify_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "AccessoryInformation",
+      "title": "Identify Off *",
+      "prop": "Identify_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "AccessoryInformation",
+      "title": "Accessory Flags",
+      "prop": "AccessoryFlags",
       "type": "droplist",
       "data": "__devprop"
     }
@@ -433,6 +923,50 @@
       "sid": "AccessoryRuntimeInformation",
       "title": "Sleep Interval",
       "prop": "SleepInterval",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "AirPurifier": [
+    {
+      "sid": "AirPurifier",
+      "title": "Active *",
+      "prop": "Active",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "AirPurifier",
+      "title": "Current Air Purifier State *",
+      "prop": "CurrentAirPurifierState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "AirPurifier",
+      "title": "Target Air Purifier State *",
+      "prop": "TargetAirPurifierState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "AirPurifier",
+      "title": "Lock Physical Controls",
+      "prop": "LockPhysicalControls",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "AirPurifier",
+      "title": "Rotation Speed",
+      "prop": "RotationSpeed",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "AirPurifier",
+      "title": "Swing Mode",
+      "prop": "SwingMode",
       "type": "droplist",
       "data": "__devprop"
     }
@@ -516,6 +1050,38 @@
       "data": "__devprop"
     }
   ],
+  "AssetUpdate": [
+    {
+      "sid": "AssetUpdate",
+      "title": "Asset Update Readiness *",
+      "prop": "AssetUpdateReadiness",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "AssetUpdate",
+      "title": "Supported Asset Types *",
+      "prop": "SupportedAssetTypes",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "Assistant": [
+    {
+      "sid": "Assistant",
+      "title": "Active *",
+      "prop": "Active",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Assistant",
+      "title": "Identifier *",
+      "prop": "Identifier",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
   "BatteryService": [
     {
       "sid": "BatteryService",
@@ -558,6 +1124,59 @@
       "sid": "Battery",
       "title": "Charging State",
       "prop": "ChargingState",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "BridgeConfiguration": [
+    {
+      "sid": "BridgeConfiguration",
+      "title": "Discover Bridged Accessories *",
+      "prop": "DiscoverBridgedAccessories",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "BridgeConfiguration",
+      "title": "Discovered Bridged Accessories *",
+      "prop": "DiscoveredBridgedAccessories",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "BridgingState": [
+    {
+      "sid": "BridgingState",
+      "title": "Reachable *",
+      "prop": "Reachable",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "BridgingState",
+      "title": "Reachable On *",
+      "prop": "Reachable_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "BridgingState",
+      "title": "Reachable Off *",
+      "prop": "Reachable_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "BridgingState",
+      "title": "Link Quality *",
+      "prop": "LinkQuality",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "BridgingState",
+      "title": "Category *",
+      "prop": "Category",
       "type": "droplist",
       "data": "__devprop"
     }
@@ -676,6 +1295,133 @@
       "data": "__devcmd"
     }
   ],
+  "CameraOperatingMode": [
+    {
+      "sid": "CameraOperatingMode",
+      "title": "Event Snapshots Active *",
+      "prop": "EventSnapshotsActive",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CameraOperatingMode",
+      "title": "HomeKit Camera Active *",
+      "prop": "HomeKitCameraActive",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CameraOperatingMode",
+      "title": "Camera Operating Mode Indicator",
+      "prop": "CameraOperatingModeIndicator",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CameraOperatingMode",
+      "title": "Camera Operating Mode Indicator On",
+      "prop": "CameraOperatingModeIndicator_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "CameraOperatingMode",
+      "title": "Camera Operating Mode Indicator Off",
+      "prop": "CameraOperatingModeIndicator_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "CameraOperatingMode",
+      "title": "Manually Disabled",
+      "prop": "ManuallyDisabled",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CameraOperatingMode",
+      "title": "Night Vision",
+      "prop": "NightVision",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CameraOperatingMode",
+      "title": "Night Vision On",
+      "prop": "NightVision_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "CameraOperatingMode",
+      "title": "Night Vision Off",
+      "prop": "NightVision_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "CameraOperatingMode",
+      "title": "Periodic Snapshots Active",
+      "prop": "PeriodicSnapshotsActive",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CameraOperatingMode",
+      "title": "Third Party Camera Active",
+      "prop": "ThirdPartyCameraActive",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CameraOperatingMode",
+      "title": "Diagonal Field Of View",
+      "prop": "DiagonalFieldOfView",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "CameraEventRecordingManagement": [
+    {
+      "sid": "CameraEventRecordingManagement",
+      "title": "Active *",
+      "prop": "Active",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CameraEventRecordingManagement",
+      "title": "Recording Audio Active",
+      "prop": "RecordingAudioActive",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "CameraRecordingManagement": [
+    {
+      "sid": "CameraRecordingManagement",
+      "title": "Active *",
+      "prop": "Active",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CameraRecordingManagement",
+      "title": "Recording Audio Active",
+      "prop": "RecordingAudioActive",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "CameraRTPStreamManagement": [
+    {
+      "sid": "CameraRTPStreamManagement",
+      "title": "Active",
+      "prop": "Active",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
   "CarbonDioxideSensor": [
     {
       "sid": "CarbonDioxideSensor",
@@ -778,6 +1524,66 @@
       "data": "__devprop"
     }
   ],
+  "Relay": [
+    {
+      "sid": "Relay",
+      "title": "Relay State *",
+      "prop": "RelayState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Relay",
+      "title": "Relay Enabled *",
+      "prop": "RelayEnabled",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Relay",
+      "title": "Relay Enabled On *",
+      "prop": "RelayEnabled_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "Relay",
+      "title": "Relay Enabled Off *",
+      "prop": "RelayEnabled_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    }
+  ],
+  "CloudRelay": [
+    {
+      "sid": "CloudRelay",
+      "title": "Relay State *",
+      "prop": "RelayState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CloudRelay",
+      "title": "Relay Enabled *",
+      "prop": "RelayEnabled",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "CloudRelay",
+      "title": "Relay Enabled On *",
+      "prop": "RelayEnabled_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "CloudRelay",
+      "title": "Relay Enabled Off *",
+      "prop": "RelayEnabled_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    }
+  ],
   "ContactSensor": [
     {
       "sid": "ContactSensor",
@@ -829,6 +1635,57 @@
       "prop": "SupportedDiagnosticsModes",
       "type": "droplist",
       "data": "__devprop"
+    }
+  ],
+  "Door": [
+    {
+      "sid": "Door",
+      "title": "Current Position *",
+      "prop": "CurrentPosition",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Door",
+      "title": "Position State *",
+      "prop": "PositionState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Door",
+      "title": "Target Position *",
+      "prop": "TargetPosition",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Door",
+      "title": "Obstruction Detected",
+      "prop": "ObstructionDetected",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Door",
+      "title": "Hold Position",
+      "prop": "HoldPosition",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Door",
+      "title": "Hold Position On",
+      "prop": "HoldPosition_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "Door",
+      "title": "Hold Position Off",
+      "prop": "HoldPosition_off",
+      "type": "droplist",
+      "data": "__devcmd"
     }
   ],
   "Doorbell": [
@@ -1002,6 +1859,187 @@
       "data": "__devprop"
     }
   ],
+  "GarageDoorOpener": [
+    {
+      "sid": "GarageDoorOpener",
+      "title": "Current Door State *",
+      "prop": "CurrentDoorState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "GarageDoorOpener",
+      "title": "Target Door State *",
+      "prop": "TargetDoorState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "GarageDoorOpener",
+      "title": "Obstruction Detected *",
+      "prop": "ObstructionDetected",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "GarageDoorOpener",
+      "title": "Lock Current State",
+      "prop": "LockCurrentState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "GarageDoorOpener",
+      "title": "Lock Target State",
+      "prop": "LockTargetState",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "HeaterCooler": [
+    {
+      "sid": "HeaterCooler",
+      "title": "Active *",
+      "prop": "Active",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HeaterCooler",
+      "title": "Current Heater-Cooler State *",
+      "prop": "CurrentHeaterCoolerState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HeaterCooler",
+      "title": "Target Heater-Cooler State *",
+      "prop": "TargetHeaterCoolerState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HeaterCooler",
+      "title": "Current Temperature *",
+      "prop": "CurrentTemperature",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HeaterCooler",
+      "title": "Lock Physical Controls",
+      "prop": "LockPhysicalControls",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HeaterCooler",
+      "title": "Rotation Speed",
+      "prop": "RotationSpeed",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HeaterCooler",
+      "title": "Swing Mode",
+      "prop": "SwingMode",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HeaterCooler",
+      "title": "Cooling Threshold Temperature",
+      "prop": "CoolingThresholdTemperature",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HeaterCooler",
+      "title": "Heating Threshold Temperature",
+      "prop": "HeatingThresholdTemperature",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HeaterCooler",
+      "title": "Temperature Display Units",
+      "prop": "TemperatureDisplayUnits",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "HumidifierDehumidifier": [
+    {
+      "sid": "HumidifierDehumidifier",
+      "title": "Active *",
+      "prop": "Active",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HumidifierDehumidifier",
+      "title": "Current Humidifier-Dehumidifier State *",
+      "prop": "CurrentHumidifierDehumidifierState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HumidifierDehumidifier",
+      "title": "Target Humidifier-Dehumidifier State *",
+      "prop": "TargetHumidifierDehumidifierState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HumidifierDehumidifier",
+      "title": "Current Relative Humidity *",
+      "prop": "CurrentRelativeHumidity",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HumidifierDehumidifier",
+      "title": "Lock Physical Controls",
+      "prop": "LockPhysicalControls",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HumidifierDehumidifier",
+      "title": "Relative Humidity Dehumidifier Threshold",
+      "prop": "RelativeHumidityDehumidifierThreshold",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HumidifierDehumidifier",
+      "title": "Relative Humidity Humidifier Threshold",
+      "prop": "RelativeHumidityHumidifierThreshold",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HumidifierDehumidifier",
+      "title": "Rotation Speed",
+      "prop": "RotationSpeed",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HumidifierDehumidifier",
+      "title": "Swing Mode",
+      "prop": "SwingMode",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "HumidifierDehumidifier",
+      "title": "Water Level",
+      "prop": "WaterLevel",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
   "HumiditySensor": [
     {
       "sid": "HumiditySensor",
@@ -1035,6 +2073,87 @@
       "sid": "HumiditySensor",
       "title": "Status Tampered",
       "prop": "StatusTampered",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "InputSource": [
+    {
+      "sid": "InputSource",
+      "title": "Input Source Type *",
+      "prop": "InputSourceType",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "InputSource",
+      "title": "Is Configured *",
+      "prop": "IsConfigured",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "InputSource",
+      "title": "Current Visibility State *",
+      "prop": "CurrentVisibilityState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "InputSource",
+      "title": "Identifier",
+      "prop": "Identifier",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "InputSource",
+      "title": "Input Device Type",
+      "prop": "InputDeviceType",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "InputSource",
+      "title": "Target Visibility State",
+      "prop": "TargetVisibilityState",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "IrrigationSystem": [
+    {
+      "sid": "IrrigationSystem",
+      "title": "Active *",
+      "prop": "Active",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "IrrigationSystem",
+      "title": "Program Mode *",
+      "prop": "ProgramMode",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "IrrigationSystem",
+      "title": "In Use *",
+      "prop": "InUse",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "IrrigationSystem",
+      "title": "Remaining Duration",
+      "prop": "RemainingDuration",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "IrrigationSystem",
+      "title": "Status Fault",
+      "prop": "StatusFault",
       "type": "droplist",
       "data": "__devprop"
     }
@@ -1171,6 +2290,94 @@
       "data": "__devprop"
     }
   ],
+  "LockManagement": [
+    {
+      "sid": "LockManagement",
+      "title": "Administrator Only Access",
+      "prop": "AdministratorOnlyAccess",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "LockManagement",
+      "title": "Administrator Only Access On",
+      "prop": "AdministratorOnlyAccess_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "LockManagement",
+      "title": "Administrator Only Access Off",
+      "prop": "AdministratorOnlyAccess_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "LockManagement",
+      "title": "Audio Feedback",
+      "prop": "AudioFeedback",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "LockManagement",
+      "title": "Audio Feedback On",
+      "prop": "AudioFeedback_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "LockManagement",
+      "title": "Audio Feedback Off",
+      "prop": "AudioFeedback_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "LockManagement",
+      "title": "Current Door State",
+      "prop": "CurrentDoorState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "LockManagement",
+      "title": "Lock Management Auto Security Timeout",
+      "prop": "LockManagementAutoSecurityTimeout",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "LockManagement",
+      "title": "Lock Last Known Action",
+      "prop": "LockLastKnownAction",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "LockManagement",
+      "title": "Motion Detected",
+      "prop": "MotionDetected",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "LockMechanism": [
+    {
+      "sid": "LockMechanism",
+      "title": "Lock Current State *",
+      "prop": "LockCurrentState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "LockMechanism",
+      "title": "Lock Target State *",
+      "prop": "LockTargetState",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
   "Microphone": [
     {
       "sid": "Microphone",
@@ -1234,6 +2441,15 @@
       "sid": "MotionSensor",
       "title": "Status Tampered",
       "prop": "StatusTampered",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "NFCAccess": [
+    {
+      "sid": "NFCAccess",
+      "title": "Configuration State *",
+      "prop": "ConfigurationState",
       "type": "droplist",
       "data": "__devprop"
     }
@@ -1305,6 +2521,52 @@
       "data": "__devprop"
     }
   ],
+  "Pairing": [
+    {
+      "sid": "Pairing",
+      "title": "Pairing Features *",
+      "prop": "PairingFeatures",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "SecuritySystem": [
+    {
+      "sid": "SecuritySystem",
+      "title": "Security System Current State *",
+      "prop": "SecuritySystemCurrentState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "SecuritySystem",
+      "title": "Security System Target State *",
+      "prop": "SecuritySystemTargetState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "SecuritySystem",
+      "title": "Security System Alarm Type",
+      "prop": "SecuritySystemAlarmType",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "SecuritySystem",
+      "title": "Status Fault",
+      "prop": "StatusFault",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "SecuritySystem",
+      "title": "Status Tampered",
+      "prop": "StatusTampered",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
   "ServiceLabel": [
     {
       "sid": "ServiceLabel",
@@ -1354,6 +2616,147 @@
       "sid": "Siri",
       "title": "Siri Touch To Use",
       "prop": "SiriTouchToUse",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "SiriEndpoint": [
+    {
+      "sid": "SiriEndpoint",
+      "title": "Active Identifier",
+      "prop": "ActiveIdentifier",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "SiriEndpoint",
+      "title": "Manually Disabled",
+      "prop": "ManuallyDisabled",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "Slat": [
+    {
+      "sid": "Slat",
+      "title": "Current Slat State *",
+      "prop": "CurrentSlatState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Slat",
+      "title": "Slat Type *",
+      "prop": "SlatType",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Slat",
+      "title": "Swing Mode",
+      "prop": "SwingMode",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Slat",
+      "title": "Current Tilt Angle",
+      "prop": "CurrentTiltAngle",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Slat",
+      "title": "Target Tilt Angle",
+      "prop": "TargetTiltAngle",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "Slats": [
+    {
+      "sid": "Slats",
+      "title": "Current Slat State *",
+      "prop": "CurrentSlatState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Slats",
+      "title": "Slat Type *",
+      "prop": "SlatType",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Slats",
+      "title": "Swing Mode",
+      "prop": "SwingMode",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Slats",
+      "title": "Current Tilt Angle",
+      "prop": "CurrentTiltAngle",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Slats",
+      "title": "Target Tilt Angle",
+      "prop": "TargetTiltAngle",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "SmartSpeaker": [
+    {
+      "sid": "SmartSpeaker",
+      "title": "Current Media State *",
+      "prop": "CurrentMediaState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "SmartSpeaker",
+      "title": "Target Media State *",
+      "prop": "TargetMediaState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "SmartSpeaker",
+      "title": "AirPlay Enable",
+      "prop": "AirPlayEnable",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "SmartSpeaker",
+      "title": "Mute",
+      "prop": "Mute",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "SmartSpeaker",
+      "title": "Mute On",
+      "prop": "Mute_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "SmartSpeaker",
+      "title": "Mute Off",
+      "prop": "Mute_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "SmartSpeaker",
+      "title": "Volume",
+      "prop": "Volume",
       "type": "droplist",
       "data": "__devprop"
     }
@@ -1432,6 +2835,22 @@
       "data": "__devprop"
     }
   ],
+  "StatefulProgrammableSwitch": [
+    {
+      "sid": "StatefulProgrammableSwitch",
+      "title": "Programmable Switch Event *",
+      "prop": "ProgrammableSwitchEvent",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "StatefulProgrammableSwitch",
+      "title": "Programmable Switch Output State *",
+      "prop": "ProgrammableSwitchOutputState",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
   "StatelessProgrammableSwitch": [
     {
       "sid": "StatelessProgrammableSwitch",
@@ -1469,6 +2888,94 @@
       "prop": "On_off",
       "type": "droplist",
       "data": "__devcmd"
+    }
+  ],
+  "TargetControl": [
+    {
+      "sid": "TargetControl",
+      "title": "Active *",
+      "prop": "Active",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "TargetControl",
+      "title": "Active Identifier *",
+      "prop": "ActiveIdentifier",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "Television": [
+    {
+      "sid": "Television",
+      "title": "Active *",
+      "prop": "Active",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Television",
+      "title": "Active Identifier *",
+      "prop": "ActiveIdentifier",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Television",
+      "title": "Remote Key *",
+      "prop": "RemoteKey",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Television",
+      "title": "Sleep Discovery Mode *",
+      "prop": "SleepDiscoveryMode",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Television",
+      "title": "Brightness",
+      "prop": "Brightness",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Television",
+      "title": "Closed Captions",
+      "prop": "ClosedCaptions",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Television",
+      "title": "Current Media State",
+      "prop": "CurrentMediaState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Television",
+      "title": "Target Media State",
+      "prop": "TargetMediaState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Television",
+      "title": "Picture Mode",
+      "prop": "PictureMode",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Television",
+      "title": "Power Mode Selection",
+      "prop": "PowerModeSelection",
+      "type": "droplist",
+      "data": "__devprop"
     }
   ],
   "TelevisionSpeaker": [
@@ -1559,11 +3066,535 @@
       "data": "__devprop"
     }
   ],
+  "Thermostat": [
+    {
+      "sid": "Thermostat",
+      "title": "Current Heating Cooling State *",
+      "prop": "CurrentHeatingCoolingState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Thermostat",
+      "title": "Target Heating Cooling State *",
+      "prop": "TargetHeatingCoolingState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Thermostat",
+      "title": "Current Temperature *",
+      "prop": "CurrentTemperature",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Thermostat",
+      "title": "Target Temperature *",
+      "prop": "TargetTemperature",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Thermostat",
+      "title": "Temperature Display Units *",
+      "prop": "TemperatureDisplayUnits",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Thermostat",
+      "title": "Current Relative Humidity",
+      "prop": "CurrentRelativeHumidity",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Thermostat",
+      "title": "Target Relative Humidity",
+      "prop": "TargetRelativeHumidity",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Thermostat",
+      "title": "Cooling Threshold Temperature",
+      "prop": "CoolingThresholdTemperature",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Thermostat",
+      "title": "Heating Threshold Temperature",
+      "prop": "HeatingThresholdTemperature",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "ThreadTransport": [
+    {
+      "sid": "ThreadTransport",
+      "title": "Current Transport *",
+      "prop": "CurrentTransport",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "ThreadTransport",
+      "title": "Thread Node Capabilities *",
+      "prop": "ThreadNodeCapabilities",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "ThreadTransport",
+      "title": "Thread Status *",
+      "prop": "ThreadStatus",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "ThreadTransport",
+      "title": "CCA Energy Detect Threshold",
+      "prop": "CCAEnergyDetectThreshold",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "ThreadTransport",
+      "title": "CCA Signal Detect Threshold",
+      "prop": "CCASignalDetectThreshold",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "ThreadTransport",
+      "title": "Event Retransmission Maximum",
+      "prop": "EventRetransmissionMaximum",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "ThreadTransport",
+      "title": "Event Transmission Counters",
+      "prop": "EventTransmissionCounters",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "ThreadTransport",
+      "title": "MAC Retransmission Maximum",
+      "prop": "MACRetransmissionMaximum",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "ThreadTransport",
+      "title": "Receiver Sensitivity",
+      "prop": "ReceiverSensitivity",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "ThreadTransport",
+      "title": "Received Signal Strength Indication",
+      "prop": "ReceivedSignalStrengthIndication",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "ThreadTransport",
+      "title": "Signal To Noise Ratio",
+      "prop": "SignalToNoiseRatio",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "ThreadTransport",
+      "title": "Transmit Power",
+      "prop": "TransmitPower",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "ThreadTransport",
+      "title": "Maximum Transmit Power",
+      "prop": "MaximumTransmitPower",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "TimeInformation": [
+    {
+      "sid": "TimeInformation",
+      "title": "Day of the Week *",
+      "prop": "DayoftheWeek",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "TimeInformation",
+      "title": "Time Update *",
+      "prop": "TimeUpdate",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "TimeInformation",
+      "title": "Time Update On *",
+      "prop": "TimeUpdate_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "TimeInformation",
+      "title": "Time Update Off *",
+      "prop": "TimeUpdate_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    }
+  ],
+  "TunneledBTLEAccessoryService": [
+    {
+      "sid": "TunneledBTLEAccessoryService",
+      "title": "Tunnel Connection Timeout *",
+      "prop": "TunnelConnectionTimeout",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "TunneledBTLEAccessoryService",
+      "title": "Tunneled Accessory Advertising *",
+      "prop": "TunneledAccessoryAdvertising",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "TunneledBTLEAccessoryService",
+      "title": "Tunneled Accessory Advertising On *",
+      "prop": "TunneledAccessoryAdvertising_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "TunneledBTLEAccessoryService",
+      "title": "Tunneled Accessory Advertising Off *",
+      "prop": "TunneledAccessoryAdvertising_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "TunneledBTLEAccessoryService",
+      "title": "Tunneled Accessory Connected *",
+      "prop": "TunneledAccessoryConnected",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "TunneledBTLEAccessoryService",
+      "title": "Tunneled Accessory Connected On *",
+      "prop": "TunneledAccessoryConnected_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "TunneledBTLEAccessoryService",
+      "title": "Tunneled Accessory Connected Off *",
+      "prop": "TunneledAccessoryConnected_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "TunneledBTLEAccessoryService",
+      "title": "Tunneled Accessory State Number *",
+      "prop": "TunneledAccessoryStateNumber",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "Tunnel": [
+    {
+      "sid": "Tunnel",
+      "title": "Tunnel Connection Timeout *",
+      "prop": "TunnelConnectionTimeout",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Tunnel",
+      "title": "Tunneled Accessory Advertising *",
+      "prop": "TunneledAccessoryAdvertising",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Tunnel",
+      "title": "Tunneled Accessory Advertising On *",
+      "prop": "TunneledAccessoryAdvertising_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "Tunnel",
+      "title": "Tunneled Accessory Advertising Off *",
+      "prop": "TunneledAccessoryAdvertising_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "Tunnel",
+      "title": "Tunneled Accessory Connected *",
+      "prop": "TunneledAccessoryConnected",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Tunnel",
+      "title": "Tunneled Accessory Connected On *",
+      "prop": "TunneledAccessoryConnected_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "Tunnel",
+      "title": "Tunneled Accessory Connected Off *",
+      "prop": "TunneledAccessoryConnected_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "Tunnel",
+      "title": "Tunneled Accessory State Number *",
+      "prop": "TunneledAccessoryStateNumber",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "Valve": [
+    {
+      "sid": "Valve",
+      "title": "Active *",
+      "prop": "Active",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Valve",
+      "title": "In Use *",
+      "prop": "InUse",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Valve",
+      "title": "Valve Type *",
+      "prop": "ValveType",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Valve",
+      "title": "Is Configured",
+      "prop": "IsConfigured",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Valve",
+      "title": "Remaining Duration",
+      "prop": "RemainingDuration",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Valve",
+      "title": "Service Label Index",
+      "prop": "ServiceLabelIndex",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Valve",
+      "title": "Set Duration",
+      "prop": "SetDuration",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Valve",
+      "title": "Status Fault",
+      "prop": "StatusFault",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "WiFiRouter": [
+    {
+      "sid": "WiFiRouter",
+      "title": "Managed Network Enable *",
+      "prop": "ManagedNetworkEnable",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "WiFiRouter",
+      "title": "Router Status *",
+      "prop": "RouterStatus",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
   "WiFiSatellite": [
     {
       "sid": "WiFiSatellite",
       "title": "Wi-Fi Satellite Status *",
       "prop": "WiFiSatelliteStatus",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "WiFiTransport": [
+    {
+      "sid": "WiFiTransport",
+      "title": "Current Transport *",
+      "prop": "CurrentTransport",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "WiFiTransport",
+      "title": "Wi-Fi Capabilities *",
+      "prop": "WiFiCapabilities",
+      "type": "droplist",
+      "data": "__devprop"
+    }
+  ],
+  "Window": [
+    {
+      "sid": "Window",
+      "title": "Current Position *",
+      "prop": "CurrentPosition",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Window",
+      "title": "Position State *",
+      "prop": "PositionState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Window",
+      "title": "Target Position *",
+      "prop": "TargetPosition",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Window",
+      "title": "Obstruction Detected",
+      "prop": "ObstructionDetected",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Window",
+      "title": "Hold Position",
+      "prop": "HoldPosition",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "Window",
+      "title": "Hold Position On",
+      "prop": "HoldPosition_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "Window",
+      "title": "Hold Position Off",
+      "prop": "HoldPosition_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    }
+  ],
+  "WindowCovering": [
+    {
+      "sid": "WindowCovering",
+      "title": "Current Position *",
+      "prop": "CurrentPosition",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "WindowCovering",
+      "title": "Position State *",
+      "prop": "PositionState",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "WindowCovering",
+      "title": "Target Position *",
+      "prop": "TargetPosition",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "WindowCovering",
+      "title": "Current Horizontal Tilt Angle",
+      "prop": "CurrentHorizontalTiltAngle",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "WindowCovering",
+      "title": "Target Horizontal Tilt Angle",
+      "prop": "TargetHorizontalTiltAngle",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "WindowCovering",
+      "title": "Obstruction Detected",
+      "prop": "ObstructionDetected",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "WindowCovering",
+      "title": "Hold Position",
+      "prop": "HoldPosition",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "WindowCovering",
+      "title": "Hold Position On",
+      "prop": "HoldPosition_on",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "WindowCovering",
+      "title": "Hold Position Off",
+      "prop": "HoldPosition_off",
+      "type": "droplist",
+      "data": "__devcmd"
+    },
+    {
+      "sid": "WindowCovering",
+      "title": "Current Vertical Tilt Angle",
+      "prop": "CurrentVerticalTiltAngle",
+      "type": "droplist",
+      "data": "__devprop"
+    },
+    {
+      "sid": "WindowCovering",
+      "title": "Target Vertical Tilt Angle",
+      "prop": "TargetVerticalTiltAngle",
       "type": "droplist",
       "data": "__devprop"
     }
