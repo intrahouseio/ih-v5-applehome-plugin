@@ -46,7 +46,7 @@ async function main() {
         const accessory = new hap.Accessory(device.Name, hap.uuid.generate("hap.ih.hub." + device._id));        
         accessory
           .getService(hap.Service.AccessoryInformation)
-          .setCharacteristic(hap.Characteristic.Name, device.className)
+          .setCharacteristic(hap.Characteristic.Name, device.Name)
           .setCharacteristic(hap.Characteristic.SerialNumber, device._id)
           .setCharacteristic(hap.Characteristic.Manufacturer, opt.conf === 2 ? 'IntraScada' : 'IntraHouse');
         
