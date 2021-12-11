@@ -41,7 +41,7 @@ async function main() {
           }
         }
 
-        device.className = type.title;
+        // device.className = type.title;
 
         const accessory = new hap.Accessory(device.Name, hap.uuid.generate("hap.ih.hub." + device._id));        
         accessory
