@@ -61,7 +61,7 @@ async function main() {
 
         list.forEach((_characteristic) => {
           const cid = _characteristic.constructor.name;
-          if (cid !== 'Name' && device[cid] !== undefined && hap.Characteristic[cid] !== undefined) {
+          if (cid !== 'Name' && (device[cid] !== undefined && device[cid] !== '' && device[cid] !== '-') && hap.Characteristic[cid] !== undefined) {
             const pid = device[cid];
 
             subs[device._id + '.' + pid] = true;
@@ -88,7 +88,19 @@ async function main() {
               }
             });
 
-            store[device._id].props[pid] = characteristic;
+            if (characteristic.props.minValue !== undefined && device[`${pid}_min`] !== undefined) {
+              characteristic.setProps({ minValue: device[`${pid}_min`] })
+            }
+
+            if (characteristic.props.maxValue !== undefined && device[`${pid}_max`] !== undefined) {
+              characteristic.setProps({ maxValue: device[`${pid}_max`] })
+            }
+
+            if (store[device._id].props[pid] === undefined) {
+              store[device._id].props[pid] = [];
+            }
+
+            store[device._id].props[pid].push(characteristic);
           }
         });
       }
@@ -121,8 +133,10 @@ async function main() {
       values[device.did + '_' + device.prop] = device.value;
 
       if (isFirstSubMessage === false) {
-        const characteristic = store[device.did].props[device.prop];
-        characteristic.updateValue(device.value);
+        const characteristics = store[device.did].props[device.prop];
+        characteristics.forEach(characteristic => {
+          characteristic.updateValue(device.value);
+        })
       }
     }
    });
