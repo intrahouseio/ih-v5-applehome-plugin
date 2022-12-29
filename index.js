@@ -1,4 +1,3 @@
-const plugin = require('ih-plugin-api')();
 const hap = require('hap-nodejs');
 const path = require('path');
 
@@ -10,11 +9,18 @@ let channels = [];
 let devices = [];
 let types = [];
 
+let plugin;
+
 const store = {}
 const values = {};
 const subs = {};
 
 async function main() {
+  const argv = JSON.parse(process.argv[2]);
+  const pluginapi = argv && argv.pluginapi ? argv.pluginapi : 'ih-plugin-api';
+   
+  plugin = require(pluginapi+'/index.js')();
+  
   opt = plugin.opt;
   settings = await plugin.params.get();
   // channels = await plugin.channels.get();
